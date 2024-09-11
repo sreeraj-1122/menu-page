@@ -6,4 +6,3 @@ Steps To run the application
 
 
    
-![Screenshot (60)](https://github.com/user-attachments/assets/f78689f6-2a2b-47f0-9c20-fe6c9984be04)
