@@ -10,7 +10,7 @@ const MenuItems = ({ category }) => {
   useEffect(() => {
     const fetchMenuItems = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/menu/items?category=${category}`);
+        const response = await axios.get(`https://menu-page-backend.onrender.com/api/menu/items?category=${category}`);
         setMenuItems(response.data);
       } catch (error) {
         console.error('Error fetching menu items:', error);
