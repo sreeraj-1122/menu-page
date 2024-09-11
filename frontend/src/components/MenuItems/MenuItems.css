@@ -73,8 +73,32 @@
     right: 40px;
 }
 
+@media (max-width: 1024px) {
+    .menu-item {
+        width: calc(50% - 20px);
+    }
+}
+
 @media (max-width: 768px) {
     .menu-item {
-        width: calc(100% - 20px);
+        width: calc(100% - 20px); 
+    }
+
+    .top-corner-images {
+        display: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-items {
+        padding: 10px;
+    }
+
+    .menu-items h1 {
+        font-size: 1.5rem; 
+    }
+
+    .menu-item strong {
+        font-size: 1rem; 
     }
 }

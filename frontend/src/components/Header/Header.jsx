@@ -22,7 +22,7 @@ const Header = () => {
         <nav className={`nav-menu ${menuOpen ? 'open' : ''}`}>
           <ul>
             <li><Link to="/">HOME</Link></li>
-            <li><Link to="/menu">MENU</Link></li>
+            <li><Link to="/">MENU</Link></li>
             <li><Link to="/reservation">MAKE A RESERVATION</Link></li>
             <li><Link to="/contact">CONTACT US</Link></li>
           </ul>
