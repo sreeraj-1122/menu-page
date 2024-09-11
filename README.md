@@ -7,6 +7,6 @@ Steps To run the application
    
    2.cd backend and type 'npm run dev' to run backend
 
-![Uploading Screenshot (60).png…]()
+![Screenshot (60)](https://github.com/user-attachments/assets/e6e7257b-8fb9-4823-bb83-8512fd33e38d) 
 
    
